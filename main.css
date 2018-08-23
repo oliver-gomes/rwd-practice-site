@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
 }
 
@@ -96,6 +96,9 @@ nav {
   padding-top: 40px;
 }
 
+nav a:not(:first-child){
+  margin-left: 50px;
+}
 .logo {
   float: left;
 }
@@ -127,12 +130,40 @@ nav {
 
 /*--Landing----------------------------------------*/
 
+.landing {
+  margin-top: 10em;
+  width: 550px;
 
+}
 
+.review {
+  opacity: 0.7;
+  margin-top: 3em;
+}
 
 /*--Responsive----------------------------------------*/
 
+@media (max-width: 900px) {
+ .desktop {
+   display: none;
 
+ }
+
+ .mobile {
+   display: block;
+   margin-top: 23px;
+ }
+
+ .landing {
+   width: 100%;
+   margin-top: 7em;
+
+ }
+
+ body {
+   background-size: 120%;
+ }
+}
 
 
 
