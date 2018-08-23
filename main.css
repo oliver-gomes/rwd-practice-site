@@ -115,7 +115,7 @@ nav a:not(:first-child){
 #overlay a:not(:first-child) {
   width: 100%;
   display: block;
-  margin: 150px 0 0 0 ;
+  margin: 100px 0 0 0 ;
 
 }
 
@@ -164,26 +164,3 @@ nav a:not(:first-child){
    background-size: 120%;
  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
